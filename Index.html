@@ -1,13 +1,4 @@
-<audio autoplay loop>
-  <source src="birthday.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Happy Birthday Palku 🎉</title>
+ Birthday Palku 🎉</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -75,15 +66,4 @@
       const minutes = Math.floor((gap % (1000 * 60 * 60)) / (1000 * 60));
       const seconds = Math.floor((gap % (1000 * 60)) / 1000);
 
-      countdown.innerHTML = `${hours} घंटे ${minutes} मिनट ${seconds} सेकंड बाकी हैं`;
-
-      if (gap < 0) {
-        countdown.innerHTML = "🎉 Happy Birthday Palku! 🎉";
-      }
-    }
-
-    updateTimer();
-    setInterval(updateTimer, 1000);
-  </script>
-</body>
-</html>
+      countdown.innerHTML = `${hours} घंटे ${minutes} मिनट ${seconds} स
